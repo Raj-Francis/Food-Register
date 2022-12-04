@@ -19,8 +19,7 @@ label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
-input[type='submit'],
-input[type='reset'] {
+input[type='submit'],.reset{
   background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
@@ -29,15 +28,15 @@ input[type='reset'] {
   cursor: pointer;
   float: right;
 }
-input[type='reset'] {
+.reset {
   margin-right: 12px;
   background-color: #b40909;
 }
 input[type='submit']:hover,
-input[type='reset']:hover {
+.reset:hover {
   background-color: #45a049;
 }
-input[type='reset']:hover {
+.reset:hover {
   background-color: #fa0606;
 }
 .container {
